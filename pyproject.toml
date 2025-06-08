@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "modele-scoringowe"
+version = "0.1.0"
+description = ""
+authors = ["Kacper Kedzierski <kacper.kedzierski1986@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+ipykernel = "^6.29.5"
+scikit-learn = "^1.7.0"
+scorecardpy = "^0.1.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
